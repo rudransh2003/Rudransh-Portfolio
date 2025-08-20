@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section id="home">
@@ -6,7 +8,7 @@ export default function Hero() {
           <div>
             <div className="mb-[.7rem]">
               <h1 className="text-5xl font-bold sm:text-6xl">
-                Hey, I'm <span className="text-[#FC4370]">Rudransh</span>
+                Hey, I&apos;m <span className="text-[#FC4370]">Rudransh</span>
               </h1>
             </div>
             <div className="mb-[3rem]">
@@ -65,9 +67,11 @@ export default function Hero() {
 
         {/* Right Section Image */}
         <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-          <img
+          <Image
             src="/hero_illustration.svg"
             alt="Hero Illustration"
+            width={500}
+            height={500}
             className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
           />
         </div>
