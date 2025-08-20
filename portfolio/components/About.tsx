@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function About() {
   const data = [
     {
@@ -33,7 +34,7 @@ export default function About() {
       <div className="flex flex-col overflow-hidden rounded-md shadow-sm md:flex-row-reverse">
         {/* Right Side Image */}
         <div className="flex items-center justify-center">
-          <img src="/mobile_guy.svg" alt="" className="p-8 w-[20rem]" />
+          <Image src="/mobile_guy.svg" alt="" className="p-8 w-[20rem]" />
         </div>
 
         {/* Left Side Content */}
