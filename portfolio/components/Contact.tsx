@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="flex flex-col justify-between">
         <div className="space-y-2">
           <h2 className="text-4xl font-bold leading-tight lg:text-5xl">
-            Let'&apos;s talk!
+            Let&apos;s talk!
           </h2>
           <p className="text-lg text-gray-400">
             Feel free to reach out to me through email or WhatsApp.
