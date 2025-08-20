@@ -5,31 +5,17 @@ import { useState } from "react";
 
 const data = [
   {
-    name: "DevBlogs ",
-    description: "DevBlogs is a Next.Js site, where i used to write blogs about web-development and software-development.  If you want to learn something, do check this website.",
-    href:`https://cyphen-blog.vercel.app`,
-    img: "/Group1.jpg",
+    name: "Code-it",
+    description: "a real-time collaborative web platform enabling teams to manage projects, write, edit, and discuss code together with AI-assisted features for improved productivity.Built using React.js, Context API, Express.js, MongoDB, and Socket.IO to enable live code sharing,communication, and synchronized collaboration among multiple users. Integrated Gemini AI APIs to automate up to 90% of repetitive coding.",
+    href:`https://code-it-new-rudransh2003s-projects.vercel.app/`,
+    img: "/image.png",
   },
   {
-    name: "DevUi",
-    description: "DevUI is a free, open-source collection of UI components and templates based on Tailwind CSS.",
-    href:`https://dev-ui.vercel.app/`,
-
-    img: "/Group2.jpg",
-  },
-  {
-    name: "A-Lab",
-    description: "Virtual Platform designed to develop your engineering skills through lab work . Through this approach, Virtual Lab aims to ease the learning process by involving students in practical activities carried out in a virtual laboratory using technologies such as 3D and Virtual Reality.",
-    href:`https://a-lab.vercel.app/`,
-
-    img: "/Group3.jpg",
-  },
-  {
-    name: "Expert Dental",
-    href:`https://www.expertdental.co.in/`,
-    description: "Expert Dental in Patna offers a host of treatments and cures for a wide range of dental ailments faced by the patients. Few of the dental procedures they offer range from inducing fillings and repairs in the tooth and many other dental services.",
-    img: "/Group4.jpg",
-  },
+    name: "E-Commerce Backend using Fast Api (python)",
+    description: "E-Commerce Backend is a secure, modular FastAPI backend with JWT authentication and role-based access control. Implemented complete product, cart, and order management with dynamic filters and pagination. Added advanced features like review posting, access control, and future-ready modular design with full and well documented Api testing on Postman.",
+    href:`https://github.com/rudransh2003/E_commerce_backend/tree/main/E-Commerce_Backend`,
+    img: "https://media.istockphoto.com/id/1428709516/photo/shopping-online-woman-hand-online-shopping-on-laptop-computer-with-virtual-graphic-icon.jpg?s=612x612&w=0&k=20&c=ROAncmFL4lbSQdU4VOhyXu-43ngzfEqHE5ZZAw5FtYk=",
+  }
 ];
 // const featuredData = [{}]
 let count = 0;
